@@ -15,17 +15,18 @@ html{
 body{
     width: 1440px;
     background-color: #FAFFF4;
+    perspective: 1000px;
     height: 1000px;
 }
 
 .container{
-    height: 3000px;
+    height: 1000px;
 }
 
 .purple{
     width: 600px;
     height: 100%;
-    transform: translatey(-2000px);
+    transform: translatez(-200px) translatey(-px);
     display: inline-block;
     border-bottom-left-radius: 800px;
     border-bottom-right-radius: 800px;
@@ -35,7 +36,7 @@ body{
 .mobile{
     width: 400px;
     display: inline-block;
-    transform: translatey(-2100px);
+    transform: translatez(2000px) translatey(0px);
     height: 850px;
     margin-top: 5px;
     margin-left: -120px;
@@ -151,7 +152,7 @@ label{
 
 label h2{
     margin-left: 30px;
-    font-size: 25px;
+    font-size: 20px;
     opacity: 1;
 }
 
@@ -218,7 +219,7 @@ label h2{
 
 .text{
     width: 400px;
-    transform: translate(1000px, -2500px);
+    transform: translatex(1000px) translatey(-500px);
     display: inline-block;
     font-size: 40px;
     opacity: 0.9;
