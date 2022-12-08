@@ -15,6 +15,7 @@ html{
 body{
     width: 1440px;
     background-color: #FAFFF4;
+    height: 1000px;
 }
 
 .container{
@@ -24,7 +25,7 @@ body{
 .purple{
     width: 600px;
     height: 100%;
-    transform: translatey(-1400px);
+    transform: translatey(-2000px);
     display: inline-block;
     border-bottom-left-radius: 800px;
     border-bottom-right-radius: 800px;
@@ -34,7 +35,7 @@ body{
 .mobile{
     width: 400px;
     display: inline-block;
-    transform: translatey(-1550px);
+    transform: translatey(-2100px);
     height: 850px;
     margin-top: 5px;
     margin-left: -120px;
@@ -217,7 +218,7 @@ label h2{
 
 .text{
     width: 400px;
-    transform: translate(1000px, -2000px);
+    transform: translate(1000px, -2500px);
     display: inline-block;
     font-size: 40px;
     opacity: 0.9;
